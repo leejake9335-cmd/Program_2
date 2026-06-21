@@ -24,6 +24,7 @@
     <ProjectGuid>{cb0fe782-7407-433b-9c18-095a64936341}</ProjectGuid>
     <RootNamespace>Class3thCircleLinkedList</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Class3th (Circle Linked List)</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
