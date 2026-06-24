@@ -9,5 +9,6 @@
   <Project Path="../Class4th (Vector)/Class4th (Vector).vcxproj" Id="0bf48ead-1ab1-4b85-b441-92f87c89704f" />
   <Project Path="../Class5th (Stack)/Class5th (Stack).vcxproj" Id="8b5454f9-94e1-4bbf-ac6c-99dde71cd0e3" />
   <Project Path="../Class6th (Linear Queue)/Class6th (Linear Queue).vcxproj" Id="71cb1b52-1cc0-4f06-8bbd-01a0796d9804" />
+  <Project Path="../Class7th (Circle Queue)/Class7th (Circle Queue).vcxproj" Id="7f00dd7c-f15e-4983-9999-affa59cf2f32" />
   <Project Path="Program.vcxproj" Id="9cace9ad-fd7c-45ee-bef9-93c65dd1112f" />
 </Solution>

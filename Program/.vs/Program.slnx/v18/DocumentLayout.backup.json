@@ -3,9 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\vip\\Desktop\\Program_2\\Program\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{71CB1B52-1CC0-4F06-8BBD-01A0796D9804}|..\\Class6th (Linear Queue)\\Class6th (Linear Queue).vcxproj|C:\\Users\\vip\\Desktop\\Program_2\\Class6th (Linear Queue)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9CACE9AD-FD7C-45EE-BEF9-93C65DD1112F}|Program.vcxproj|C:\\Users\\vip\\Desktop\\Program_2\\Program\\Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9CACE9AD-FD7C-45EE-BEF9-93C65DD1112F}|Program.vcxproj|solutionrelative:Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -17,30 +14,25 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Source.cpp",
-              "DocumentMoniker": "C:\\Users\\vip\\Desktop\\Program_2\\Class6th (Linear Queue)\\Source.cpp",
-              "RelativeDocumentMoniker": "..\\Class6th (Linear Queue)\\Source.cpp",
-              "ToolTip": "C:\\Users\\vip\\Desktop\\Program_2\\Class6th (Linear Queue)\\Source.cpp",
-              "RelativeToolTip": "..\\Class6th (Linear Queue)\\Source.cpp",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAADcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-06-23T10:27:57.209Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cpp",
               "DocumentMoniker": "C:\\Users\\vip\\Desktop\\Program_2\\Program\\Program.cpp",
               "RelativeDocumentMoniker": "Program.cpp",
               "ToolTip": "C:\\Users\\vip\\Desktop\\Program_2\\Program\\Program.cpp",
               "RelativeToolTip": "Program.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-06-11T09:04:03.014Z",
               "EditorCaption": ""

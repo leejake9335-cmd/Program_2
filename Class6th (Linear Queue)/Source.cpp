@@ -11,7 +11,7 @@ private:
 	int m_rear;
 	int m_front;
 
-	T* container[SIZE];
+	T container[SIZE];
 public:
 	Queue()
 	{

@@ -1,39 +1,62 @@
 ﻿#include <iostream>
 
-#define SIZE 4
-
 using namespace std;
 
-template <typename T >
-class Queue
+template <typename T>
+class ParorityQueue
 {
- private:
-	int m_rear;
-	int m_front;
+private:
+	int index;
 
-	T* container[SIZE];
- public:
-	Queue()
+	int capacity;
+
+	T* container;
+
+public:
+
+	ParorityQueue()
 	{
-		m_rear = SIZE - 1;
-		m_front = SIZE - 1;
+		index = 0;
+	
+		capacity = 0;
 
-		for (int i = 0; i < SIZE; i++)
-		{
-			container[i] = NULL;
-		}
+		container = nullptr;
 	}
+	void resize(int newSize)
+	{
+		capacity = newSize;
 
+		T* temporary = new T[capacity];
+		
+		for (int i = 0; i < capacity; i++)
+		{
+			temporary[i] = NULL;
+		}
+		
+		for (int i = 0; i < index; i++)
+		{
+			temporary[i] = container[i];
+		}
+		
+		delete[] container;
+		
+		container = temporary;
+	}
 
 
 
 };
 
 
-
 int main()
 {
-	Queue<int> queue;
+	ParorityQueue<int> parorityqueue;
+
+	parorityqueue.resize(1);
+	
+	parorityqueue.resize(2);
+	
+	parorityqueue.resize(4);
 	
 	return 0;
 
