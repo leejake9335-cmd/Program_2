@@ -39,7 +39,7 @@ public:
 
 	void pop()
 	{
-		if (m_front = 0)
+		if (m_front == m_rear)
 		{
 			cout << "circle queue is empty" << endl;
 		}
@@ -47,7 +47,7 @@ public:
 		{
 			m_front = (m_front + 1) % SIZE;
 
-			container[m_front]
+			container[m_front] = NULL;
 		}
 	}
 	const bool& empty()
