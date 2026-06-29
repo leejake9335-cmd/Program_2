@@ -49,20 +49,65 @@ public:
 	template<>
 	unsigned int hash_function(const char* key)
 	{
-		if (sum == NULL)
+		unsigned int sum = 0;
+
+		while (*key == '\0')
 		{
-			
+			sum += *key;
+			key++;
 		}
+		return sum % capacity;
+	}
+
+	void insert(KEY key, VALUE value)
+	{
+		int hashindex = hash_function(key);
+
+		Node* newNode = new Node;
+
+		newNode->key = key;
+		newNode->value = value;
+		newNode->next = nullptr;
+
+		if (bucket[hashindex].count == 0)
+		{
+			bucket[hashindex].head = newNode;
+		}
+		else
+		{
+			newNode->next = bucket[hashindex].head;
+			bucket[hashindex].head = newNode;
+		}
+		bucket[hashindex].count++;
+		size++;
+
+	}
+
+	~HashTable()
+	{
+
+		for (int i = 0; i < capacity;i++)
+		{
+			Node* deleteNode = bucket[i].head;
+			Node* nextNode = deleteNode;
+			while (deleteNode != nullptr)
+			{
+				delete deleteNode;
+			}
+		}
+		
+
 	}
 };
 
 
 int main()
 {
-	HashTable<char, int> hashtable;
+	HashTable<const char*, int> hashtable;
 
-	cout << hashtable.hash_function(100) << endl;
-	cout << hashtable.hash_function('a') << endl;
+	hashtable.insert("닌탑", 10);
+	hashtable.insert("bami", 1);
+	hashtable.insert("donkihotei", 156);
 
 
 	return 0;

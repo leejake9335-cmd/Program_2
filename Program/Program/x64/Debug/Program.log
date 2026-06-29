@@ -1,2 +1,11 @@
 ﻿  Program.cpp
-  Program.vcxproj -> C:\Users\Administrator\Desktop\Program_2\Program\x64\Debug\Program.exe
+C:\Users\Administrator\Desktop\Program_2\Program\Program.cpp(88,27): error C2065: 'hashindex': 선언되지 않은 식별자입니다.
+      C:\Users\Administrator\Desktop\Program_2\Program\Program.cpp(88,27):
+      템플릿 인스턴스화 컨텍스트(가장 오래된 인스턴스화 컨텍스트)가
+          C:\Users\Administrator\Desktop\Program_2\Program\Program.cpp(6,7):
+          클래스 템플릿 'HashTable'을(를) 컴파일하는 동안
+  
+C:\Users\Administrator\Desktop\Program_2\Program\Program.cpp(88,39): error C2013: ';' 필요
+C:\Users\Administrator\Desktop\Program_2\Program\Program.cpp(90,3): error C2760: 구문 오류: 여기서 'if'은(는) 예상치 못한 오류였습니다. 예상된 오류는 '식'였습니다
+C:\Users\Administrator\Desktop\Program_2\Program\Program.cpp(92,18): error C2065: 'hashindex': 선언되지 않은 식별자입니다.
+C:\Users\Administrator\Desktop\Program_2\Program\Program.cpp(100,3): error C2760: 구문 오류: 여기서 '}'은(는) 예상치 못한 오류였습니다. 예상된 오류는 ';'였습니다
