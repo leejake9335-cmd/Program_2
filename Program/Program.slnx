@@ -11,5 +11,6 @@
   <Project Path="../Class6th (Linear Queue)/Class6th (Linear Queue).vcxproj" Id="71cb1b52-1cc0-4f06-8bbd-01a0796d9804" />
   <Project Path="../Class7th (Circle Queue)/Class7th (Circle Queue).vcxproj" Id="7f00dd7c-f15e-4983-9999-affa59cf2f32" />
   <Project Path="../Class8th (priority Queue)/Class8th (priority Queue).vcxproj" Id="043b4f4d-cf87-4469-b8a1-3f1977efa6ac" />
+  <Project Path="../Class9th (Hash Table)/Class9th (Hash Table).vcxproj" Id="033bcf71-dbb6-4679-ada6-15068ef1cea5" />
   <Project Path="Program.vcxproj" Id="9cace9ad-fd7c-45ee-bef9-93c65dd1112f" />
 </Solution>
