@@ -1,2 +1,9 @@
 ﻿  Program.cpp
-  Program.vcxproj -> C:\Users\vip\Desktop\Program_2\Program\x64\Debug\Program.exe
+C:\Users\vip\Desktop\Program_2\Program\Program.cpp(25,10): error C3878: 구문 오류: 예기치 않은 토큰 'data'이(가) 'declaration' 다음에 있습니다.
+      C:\Users\vip\Desktop\Program_2\Program\Program.cpp(25,4):
+      이전 선언 뒤에 ',' 또는 ';'이 없을 수 있음
+      C:\Users\vip\Desktop\Program_2\Program\Program.cpp(25,4):
+      템플릿 인스턴스화 컨텍스트(가장 오래된 인스턴스화 컨텍스트)가
+          C:\Users\vip\Desktop\Program_2\Program\Program.cpp(6,7):
+          클래스 템플릿 'Tree'을(를) 컴파일하는 동안
+  
