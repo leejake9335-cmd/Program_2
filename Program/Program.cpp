@@ -9,9 +9,18 @@ private:
 
 	struct Node
 	{
-		T data=0;
-		Node* left = nullptr;
-		Node* right = nullptr;
+		T data = 0;
+		Node* left;
+		Node* right;
+		
+		Node(T data)
+		{
+			this->data = data;
+
+			left = nullptr;
+			right = nullptr;
+		}
+
 	};
 
 	Node* root;
@@ -21,8 +30,6 @@ public:
 	Tree()
 	{
 		root = nullptr;
-
-		Node T data
 	}
 
 	void insert(T data)
@@ -44,7 +51,6 @@ public:
 					if (currentNode->left == nullptr)
 					{
 						currentNode->left = new Node(data);
-						break;
 					}
 					else
 					{
@@ -56,7 +62,6 @@ public:
 					if (currentNode->right == nullptr)
 					{
 						currentNode->right = new Node(data);
-						break;
 					}
 					else
 					{
@@ -72,6 +77,88 @@ public:
 		}
 	}
 
+	void inorder(Node * root)
+	{
+		if (root != nullptr)
+		{
+			inorder(root->left);
+			cout << root->data << " ";
+			inorder(root->right);
+		}
+
+	}
+
+	void render()
+	{
+		inorder(root);
+	}
+
+	void erase(T data)
+	{
+	    Node* currentNode = root;
+		Node* parentNode = nullptr;
+
+		while (currentNode != nullptr && currentNode->data != data)
+		{
+			parentNode = currentNode;
+
+			if (data < currentNode->data)
+			{
+				currentNode = currentNode->left;
+			}
+			else
+			{
+				currentNode = currentNode->right;
+			}
+				
+		}
+		if (currentNode == nullptr)
+		{
+			cout << "The data does not exist" << endl;
+
+			return;
+		}
+		else if (currentNode->right == nullptr && currentNode->left == nullptr)
+		{
+			if (parentNode != nullptr)
+			{
+				if (parentNode->left == currentNode)
+				{
+					parentNode->left = nullptr;
+				}
+
+				else
+				{
+					parentNode->right = nullptr;
+				}
+			}
+			else
+			{
+				root == nullptr;
+			}
+			delete currentNode;
+  		}
+		else
+		{
+			if (parentNode->data < data)
+			else if(parentNode->data > data)
+			else
+		
+			Node* childNode = nullptr;
+			if (currentNode->right != nullptr && currentNode->left == nullptr)
+			{
+				parentNode->right =
+			}
+			else if (currentNode->right == nullptr && currentNode->left != nullptr)
+			{
+				childNode = currentNode->left;
+				root->left = childNode;
+			}
+		}
+
+	
+	}
+
 
 
 };
@@ -81,12 +168,18 @@ int main()
 	Tree<int> tree;
 
 	tree.insert(10);
-	tree.insert(20);
-	tree.insert(13);
+	tree.insert(6);
 	tree.insert(15);
-	tree.insert(17);
+	tree.insert(2);
+	tree.insert(13);
+	tree.insert(22);
+	tree.insert(18);
+	tree.insert(29);
+	tree.insert(20);
 
+	tree.erase(29);
 
+	tree.render();
 	
 	return 0;
 
