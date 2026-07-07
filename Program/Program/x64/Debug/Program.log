@@ -1,16 +1,16 @@
 ﻿  Program.cpp
-C:\Users\Administrator\Desktop\Program_2\Program\Program.cpp(137,10): warning C4553: '==': 식의 결과가 사용되지 않습니다. '='을(를) 의도했습니까?
-      C:\Users\Administrator\Desktop\Program_2\Program\Program.cpp(137,10):
+C:\Users\vip\Desktop\Program_2\Program\Program.cpp(110,8): error C2065: 'itn': 선언되지 않은 식별자입니다.
+      C:\Users\vip\Desktop\Program_2\Program\Program.cpp(110,8):
       템플릿 인스턴스화 컨텍스트(가장 오래된 인스턴스화 컨텍스트)가
-          C:\Users\Administrator\Desktop\Program_2\Program\Program.cpp(150,12):
-          컴파일되는 클래스 템플릿 인스턴스화 'Tree<int>'에 대한 참조를 확인하세요.
-          C:\Users\Administrator\Desktop\Program_2\Program\Program.cpp(96,7):
-          클래스 템플릿 멤버 함수 'void Tree<int>::erase(T)'을(를) 컴파일하는 중입니다.
-          with
-          [
-              T=int
-          ]
-              C:\Users\Administrator\Desktop\Program_2\Program\Program.cpp(162,12):
-              'main'에서 'Tree<int>::erase'에 대한 첫 번째 참조를 확인하세요.
+          C:\Users\vip\Desktop\Program_2\Program\Program.cpp(5,7):
+          클래스 템플릿 'Graph'을(를) 컴파일하는 동안
   
-  Program.vcxproj -> C:\Users\Administrator\Desktop\Program_2\Program\x64\Debug\Program.exe
+C:\Users\vip\Desktop\Program_2\Program\Program.cpp(110,12): error C3878: 구문 오류: 예기치 않은 토큰 'i'이(가) 'expression' 다음에 있습니다.
+C:\Users\vip\Desktop\Program_2\Program\Program.cpp(110,27): error C2187: 구문 오류: 예기치 않은 ';이(가) 있습니다.
+C:\Users\vip\Desktop\Program_2\Program\Program.cpp(110,27): error C2760: 구문 오류: 여기서 ';'은(는) 예상치 못한 오류였습니다. 예상된 오류는 ')'였습니다
+C:\Users\vip\Desktop\Program_2\Program\Program.cpp(110,29): error C2065: 'i': 선언되지 않은 식별자입니다.
+C:\Users\vip\Desktop\Program_2\Program\Program.cpp(110,32): error C2760: 구문 오류: 여기서 ')'은(는) 예상치 못한 오류였습니다. 예상된 오류는 ';'였습니다
+C:\Users\vip\Desktop\Program_2\Program\Program.cpp(110,32): error C3878: 구문 오류: 예기치 않은 토큰 ')'이(가) 'expression-statement' 다음에 있습니다.
+C:\Users\vip\Desktop\Program_2\Program\Program.cpp(112,20): error C2065: 'i': 선언되지 않은 식별자입니다.
+C:\Users\vip\Desktop\Program_2\Program\Program.cpp(133,29): error C3878: 구문 오류: 예기치 않은 토큰 'i'이(가) 'expression' 다음에 있습니다.
+C:\Users\vip\Desktop\Program_2\Program\Program.cpp(133,32): error C2760: 구문 오류: 여기서 ')'은(는) 예상치 못한 오류였습니다. 예상된 오류는 ';'였습니다
